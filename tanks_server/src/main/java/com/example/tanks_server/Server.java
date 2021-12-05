@@ -18,11 +18,10 @@ public class Server {
     }
 
     private void init() throws IOException {
-        ServerSocket s1 = new ServerSocket(Protocol.PORT);
-        while (true) {
+        /*while (true) {
             Socket client = s1.accept();
             connections.add(new Connection(this, client, id++));
-        }
+        }*/
     }
 
     public static void main(String[] args) throws IOException {
