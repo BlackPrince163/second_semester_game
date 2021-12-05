@@ -9,7 +9,9 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>tanks_clientt</module>
+        <module>tanks_client</module>
+        <module>tanks_protocol</module>
+        <module>tanks_server</module>
     </modules>
 
     <properties>
